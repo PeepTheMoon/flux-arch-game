@@ -12,3 +12,17 @@ export const useDispatch = () => {
   return dispatch;
 };
 
+export const usePlayerHand = () => {
+  const { playerHand } = useState();
+  return playerHand;
+};
+
+export const useComputerHand = () => {
+  const { computerHand } = useState();
+  return computerHand;
+};
+
+export const useScoreBoard = () => {
+  const { scoreBoard } = useState();
+  return scoreBoard;
+};

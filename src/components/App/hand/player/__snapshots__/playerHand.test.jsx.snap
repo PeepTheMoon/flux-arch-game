@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`playerHand component renders playerHand 1`] = `
+<playerHand
+  image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRolJqqHMjpTKMX1xJ5ytee8332VT_vLI4PoAsurW4zcQQrE8Nd&usqp=CAU"
+  name="paper"
+/>
+`;

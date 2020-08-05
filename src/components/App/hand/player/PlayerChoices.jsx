@@ -8,9 +8,9 @@ const PlayerChoices = () => {
   const handleChange = ({ target }) => {
     dispatch({ type: 'SET_PLAYER_HAND', payload: target.value });
   };
-
+  
+  //update playerHand state based on radio selection
   useEffect(() => {
-    //update playerHand state based on radio selection
     dispatch(playerHand);
   }), [playerHand];
 
